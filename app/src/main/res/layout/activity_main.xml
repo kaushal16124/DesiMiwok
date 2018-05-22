@@ -1,0 +1,95 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECB3">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFECB3">
+
+        
+        <TextView
+            android:text=""
+            android:background="#FFECB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/numbers"
+            android:text="NUMBERS"
+            android:background="#18FFFF"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="20sp"
+            android:onClick="openNumbersList">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/family"
+            android:text="FAMILY MEMBERS"
+            android:textAlignment="center"
+            android:background="#76FF03"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="20sp"
+            android:onClick="news" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/colors"
+            android:text="COLORS"
+            android:layout_width="match_parent"
+            android:background="#FF3D00"
+            android:textAlignment="center"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="20sp"
+            android:onClick="youtube">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/phrases"
+            android:text="LAME PHRASES"
+            android:layout_width="match_parent"
+            android:background="#FFFD00"
+            android:textAlignment="center"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textSize="20sp"
+            android:onClick="youtube">
+
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>
